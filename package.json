@@ -1,0 +1,21 @@
+{
+  "name": "staff-status",
+  "version": "1.0.0",
+  "description": "display staff online,offline,dnd,idle time how much they online",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": ["staffstatus","status","discordbot"],
+  "author": "HJGAMING",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "anticrash": "^1.1.0",
+    "discord-api-types": "^0.37.90",
+    "discord.js": "^13.17.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.4.4"
+  }
+}
